@@ -7,5 +7,6 @@ def multWithEight(num):
     else:
         result = num * 9
     return result
-
-print(multWithEight(5))
+    
+mynum = int(input())
+print(multWithEight(mynum))
